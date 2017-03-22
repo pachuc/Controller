@@ -16,17 +16,18 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/connectButton" />
+        android:id="@+id/connectButton"
+        android:onClick="api_connection" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Address"
+        android:text="Game ID"
         android:ems="10"
+        android:id="@+id/gameID"
         android:layout_above="@+id/connectButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="49dp"
-        android:id="@+id/AddressText" />
+        android:layout_marginBottom="64dp" />
 
 </RelativeLayout>

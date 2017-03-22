@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Controller</string>
+
+    <string name="title_activity_ui">UIActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
